@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2017
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Run", "Run.csproj", "{A0B87940-A464-DA20-2451-A1D780205130}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A0B87940-A464-DA20-2451-A1D780205130}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A0B87940-A464-DA20-2451-A1D780205130}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A0B87940-A464-DA20-2451-A1D780205130}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A0B87940-A464-DA20-2451-A1D780205130}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
