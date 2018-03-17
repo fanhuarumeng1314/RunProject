@@ -158,7 +158,7 @@ public class GameMode : MonoBehaviour {
         PlayRoadAnimator(tmpRoad);
         roads.Add(tmpRoad);
         guideTrs.position += guideTrs.forward;
-        guideTrs.position += guideTrs.up * 0.1f;
+        guideTrs.position += guideTrs.up * 0.2f;
     }
     /// <summary>
     /// 生成下降地图
@@ -169,7 +169,7 @@ public class GameMode : MonoBehaviour {
         PlayRoadAnimator(tmpRoad);
         roads.Add(tmpRoad);
         guideTrs.position += guideTrs.forward;
-        guideTrs.position -= guideTrs.up * 0.1f;
+        guideTrs.position -= guideTrs.up * 0.2f;
     }
     /// <summary>
     /// 生成左斜地图
@@ -180,7 +180,7 @@ public class GameMode : MonoBehaviour {
         PlayRoadAnimator(tmpRoad);
         roads.Add(tmpRoad);
         guideTrs.position += guideTrs.forward;
-        guideTrs.position -= guideTrs.right * 0.1f;
+        guideTrs.position -= guideTrs.right * 0.2f;
 
     }
     /// <summary>
@@ -192,7 +192,7 @@ public class GameMode : MonoBehaviour {
         PlayRoadAnimator(tmpRoad);
         roads.Add(tmpRoad);
         guideTrs.position += guideTrs.forward;
-        guideTrs.position += guideTrs.right * 0.1f;
+        guideTrs.position += guideTrs.right * 0.2f;
 
     }
     /// <summary>

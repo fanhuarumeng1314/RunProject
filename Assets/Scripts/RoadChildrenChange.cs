@@ -12,7 +12,6 @@ public class RoadChildrenChange : MonoBehaviour {
     public float time = 0.3f;                         //现在的还原时间
     public RoadType nowType;                          //现在的道路类型
     public GameObject gold;                           //金币物体
-    public bool isGoldTrun;                           //是否旋转金币
     Quaternion nowQuat;                               //金币的初始旋转
     private void Awake()
     {
@@ -50,11 +49,10 @@ public class RoadChildrenChange : MonoBehaviour {
         {
             transform.RotateAround(parentObj.transform.position, parentObj.transform.right, 30 * Time.deltaTime);
         }
-        if (isGoldTrun && gold!=null)
+        if (gold != null)
         {
-            gold.transform.Rotate(Vector3.up,70*Time.deltaTime);
+            gold.transform.Rotate(Vector3.up, 70 * Time.deltaTime);
         }
-
 
     }
     /// <summary>
@@ -100,7 +98,6 @@ public class RoadChildrenChange : MonoBehaviour {
     /// </summary>
     public void InitGold()
     {
-        isGoldTrun = true;
         gold.transform.rotation = nowQuat;
     }
 
